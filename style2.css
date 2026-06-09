@@ -1,0 +1,250 @@
+.container-quem-somos {
+    margin-top: 85px !important; 
+    min-height: calc(100vh - 85px); 
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitulo-projeto {
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #000000;
+    border-left: 4px solid #000000; 
+    padding-left: 15px;
+}
+
+.container-quem-somos .texto-inferior {
+    max-width: 900px; 
+    margin-bottom: 35px;
+}
+
+footer {
+    background-color: #000000;
+    padding: 40px 0;
+    position: relative;
+    z-index: 3; /* Sobrepõe o fundo caso a rolagem passe do limite */
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+}
+
+header {
+    border-bottom: 2px solid #efefef;
+    padding: 15px 0;
+    background-color: #ffffff;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100; 
+}
+
+nav {
+    width: 100%;
+    max-width: 1400px; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px; 
+}
+
+.logo-senai img {
+    height: 45px;
+    width: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #666666;
+    font-weight: bold;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #000000;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('fundo.png');
+    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 75vh; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 20px;
+    z-index: 1; 
+}
+
+.banner-content {
+    max-width: 800px;
+    margin-top: 65px;
+}
+
+.banner h1 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.btn-saiba-mais {
+    display: inline-block;
+    padding: 12px 40px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    background: transparent;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn-saiba-mais:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.container {
+    width: 100%; 
+    max-width: 1400px; 
+    margin: 0 auto;
+    padding: 60px 40px; 
+    
+    position: relative;
+    z-index: 2; 
+    background-color: #ffffff; 
+    margin-top: 75vh; 
+}
+.titulo-sessao {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.conteudo-materia {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 25px;
+    align-items: flex-start;
+}
+
+.coluna-imagem {
+    flex: 1;
+}
+
+.coluna-imagem img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.legenda {
+    font-size: 13px;
+    color: #666666;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+.coluna-texto {
+    flex: 1.2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.citacao {
+    font-style: italic;
+    font-weight: bold;
+    color: #444444;
+}
+
+.texto-inferior {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 60px;
+}
+
+.fonte {
+    margin-top: 15px;
+}
+
+.astronautas {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.astronautas img {
+    width: 31%;
+    max-width: 320px;
+    height: auto;
+    border-radius: 0;
+}
+
+footer {
+    background-color: #000000;
+    padding: 40px 0;
+    position: relative;
+    z-index: 3; 
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #ffffff;
+    font-size: 14px;
+}
